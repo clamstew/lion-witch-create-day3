@@ -38,6 +38,10 @@ end
 
 gem 'haml'
 
+# Add Foundation Here
+  gem 'compass' # you need this or you get an err
+  gem 'zurb-foundation', '~> 4.0.0'
+
 gem 'quiet_assets', :group => :development
 
 # Use ActiveModel has_secure_password
